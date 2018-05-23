@@ -1,0 +1,37 @@
+body {
+	height: 100%;
+	background-image: url(background.jpg);
+	background-size: cover !important;
+	background-repeat: no-repeat;
+}
+
+.btn {
+	/*background-color: black;*/
+	border: 1px solid black;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
+
+.btn:hover {
+	background-image: url(button.jpg);
+	background-size: cover;
+	border: 1px solid black;
+}
+
+.lbl1 {
+	margin-top: 150px;
+	text-align: center;
+	flex-wrap: wrap;
+	font-family: fantasy;
+	font-size: 40px;
+	/*font-weight: bold;*/
+	color: white;
+}
+
+.btn-field {
+	margin-top: 10px;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+}
